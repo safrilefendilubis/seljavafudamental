@@ -1,4 +1,4 @@
-package com.juaracoding.seljavafundamental.cobacoba;
+package com.juaracoding.seljavafundamental.cobacoba.coba_1;
 
 /*
 IntelliJ IDEA 2022.3.1 (Community Edition)
