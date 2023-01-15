@@ -3,6 +3,8 @@ package com.juaracoding.seljavafundamental.cobacoba.coba_1;
 import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
 import jdk.nashorn.internal.objects.NativeString;
 
+import javax.print.DocFlavor;
+
 /*
 IntelliJ IDEA 2022.3.1 (Community Edition)
 Build #IC-223.8214.52, built on December 20, 2022
@@ -192,6 +194,7 @@ public class CobaCoba {
 //
 //
 //        int chX ='I'
+
 
 
     }
