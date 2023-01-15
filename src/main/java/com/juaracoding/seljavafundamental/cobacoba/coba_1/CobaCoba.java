@@ -1,5 +1,8 @@
 package com.juaracoding.seljavafundamental.cobacoba.coba_1;
 
+import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
+import jdk.nashorn.internal.objects.NativeString;
+
 /*
 IntelliJ IDEA 2022.3.1 (Community Edition)
 Build #IC-223.8214.52, built on December 20, 2022
@@ -163,6 +166,32 @@ public class CobaCoba {
 //        }
 //
 //        System.out.print(kuncen);
+
+
+
+        /*
+        int intX = charYgTadi;
+        if((intX>=65 && intX<=90) || (intX>=97 && intX<=122) || (intX>=48 && intX<=57)){
+        true
+        }
+
+         */
+//        char chX = 'I';
+//        int intX = 0;
+//        int intJumlah = 0;
+//        for (int i=0;i<strInput.length();i++)
+//        {
+//            chX =strInput.charAt(i);
+//            intX = chX;
+//            if(intX>=65 && intX<=97)
+//            {
+//                intJumlah=intJumlah+intX;
+//            }
+//            System.out.println("INDEX KE"+i+" ADALAH HURUF "+strInput.charAt(i));
+//        }
+//
+//
+//        int chX ='I'
 
 
     }
