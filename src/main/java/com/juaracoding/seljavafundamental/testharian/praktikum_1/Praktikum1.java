@@ -15,10 +15,10 @@ public class Praktikum1 {
     public static void main(String[] args) {
         char chX ='S';
         int intX = chX;
-        System.out.println(intX);
+//        System.out.println(intX);
         Scanner scanner = new Scanner(System.in);
         String dopkalis = scanner.nextLine();
-        System.out.println("NILAI DOPKALIS ADALAH : "+dopkalis);
+//        System.out.println("NILAI DOPKALIS ADALAH : "+dopkalis);
         int intTampung = 0;
         for (int i=0;i<dopkalis.length();i++){
             chX = dopkalis.charAt(i);
