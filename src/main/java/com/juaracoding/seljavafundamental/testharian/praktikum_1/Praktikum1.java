@@ -17,11 +17,11 @@ public class Praktikum1 {
         int intX = chX;
 //        System.out.println(intX);
         Scanner scanner = new Scanner(System.in);
-        String dopkalis = scanner.nextLine();
+        String strDopkalis = scanner.nextLine();
 //        System.out.println("NILAI DOPKALIS ADALAH : "+dopkalis);
         int intTampung = 0;
-        for (int i=0;i<dopkalis.length();i++){
-            chX = dopkalis.charAt(i);
+        for (int i=0;i<strDopkalis.length();i++){
+            chX = strDopkalis.charAt(i);
             intX = chX;
             if (intX>=32 && intX<=90){
                 intTampung = intTampung + intX;
