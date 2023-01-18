@@ -4,6 +4,7 @@ import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
 import jdk.nashorn.internal.objects.NativeString;
 
 import javax.print.DocFlavor;
+import java.util.Scanner;
 
 /*
 IntelliJ IDEA 2022.3.1 (Community Edition)
@@ -196,6 +197,38 @@ public class CobaCoba {
 //        int chX ='I'
 
 
+//        Scanner sc = new Scanner(System.in);
+//        int intNumber = 0, intTotal = 0;
+//        boolean isAgain = true;
+//
+//        try {
+//            System.out.println("Masukkan angka sepuasnya: ");
+//            do {
+//                intNumber = sc.nextInt();//input
+//
+//                intTotal += intNumber;//proses penjumlahan input
+//            } while (isAgain);//perulangan utk input kembali
+//        } catch (Exception e) {//exception handling utk input karakter
+//            System.out.println("Jumlah: " + intTotal);//output
+//            System.exit(0);//keluar dari sistem
+//        }
+
+        Scanner masuk = new Scanner(System.in);
+        int i, n;
+        float jum, x, rata;
+        System.out.print ("Banyaknya Data: ");
+        n = masuk.nextInt();
+        jum=0;
+        i=1;
+        while (i<=n){
+            System.out.print ("Data ke-"+i+": ");
+            x=masuk.nextFloat ();
+            jum += x;
+            i++;
+        }
+        rata = jum / n;
+        System.out.println ("Rata-rata: "+rata);
+        System.out.println ("Jumlah: "+jum);
 
     }
 }
