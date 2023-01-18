@@ -15,18 +15,18 @@ public class Praktikum2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int intNumber = 0;
-        int intTotal = 0;
-        int intJumlahData = 0;
+        double douTotal = 0;
+        double douJumlahData = 0;
         boolean isAgain = true;
         try {
             System.out.println("Masukkan angka sepuasnya");
         do {
             intNumber = sc.nextInt();
-            intTotal+= intNumber;
-            intJumlahData=intNumber;
+            douTotal+= intNumber;
+            douJumlahData=intNumber;
         }while (isAgain);
         }catch (Exception e){
-            System.out.println("Jumlah : "+intTotal+ " Rata-rata : "+intTotal/intJumlahData);
+            System.out.println("Jumlah : "+douTotal+ " Rata-rata : "+douTotal/douJumlahData);
         }
     }
 }
