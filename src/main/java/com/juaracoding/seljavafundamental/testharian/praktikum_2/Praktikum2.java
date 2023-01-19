@@ -12,18 +12,23 @@ Created on 1/18/2023 11:22 AM
 Version 1.1
 */
 public class Praktikum2 {
+   /*
+	Soal Nomor 1 Praktikum 2 Java Fundamental
+*/
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int intNumber = 0;
         double douTotal = 0;
         double douJumlahData = 0;
+
         boolean isAgain = true;
         try {
-            System.out.println("Masukkan angka sepuasnya");
+            System.out.println("Masukkan angka sepuasnya : ");
         do {
             intNumber = sc.nextInt();
             douTotal+= intNumber;
-            douJumlahData=intNumber;
+           douJumlahData++;
         }while (isAgain);
         }catch (Exception e){
             System.out.println("Jumlah : "+douTotal+ " Rata-rata : "+douTotal/douJumlahData);
