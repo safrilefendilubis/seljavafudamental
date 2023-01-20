@@ -4,6 +4,7 @@ import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
 import jdk.nashorn.internal.objects.NativeString;
 
 import javax.print.DocFlavor;
+import java.util.Random;
 import java.util.Scanner;
 
 /*
@@ -213,23 +214,54 @@ public class CobaCoba {
 //            System.exit(0);//keluar dari sistem
 //        }
 
-        Scanner masuk = new Scanner(System.in);
-        int i, n;
-        float jum, x, rata;
-        System.out.print ("Banyaknya Data: ");
-        n = masuk.nextInt();
-        jum=0;
-        i=1;
-        while (i<=n){
-            System.out.print ("Data ke-"+i+": ");
-            x=masuk.nextFloat ();
-            jum += x;
-            i++;
-        }
-        rata = jum / n;
-        System.out.println ("Rata-rata: "+rata);
-        System.out.println ("Jumlah: "+jum);
+//        Scanner masuk = new Scanner(System.in);
+//        int i, n;
+//        float jum, x, rata;
+//        System.out.print ("Banyaknya Data: ");
+//        n = masuk.nextInt();
+//        jum=0;
+//        i=1;
+//        while (i<=n){
+//            System.out.print ("Data ke-"+i+": ");
+//            x=masuk.nextFloat ();
+//            jum += x;
+//            i++;
+//        }
+//        rata = jum / n;
+//        System.out.println ("Rata-rata: "+rata);
+//        System.out.println ("Jumlah: "+jum);
+
+
+//                Scanner input = new Scanner(System.in);
+//                double sum = 0;
+//                int count = 0;
+//                while (true) {
+//                    try {
+//                        double num = input.nextDouble();
+//                        sum += num;
+//                        count++;
+//                    } catch (Exception e) {
+//                        break;
+//                    }
+//                }
+//
+//                double average = sum / count;
+//                System.out.println("Rata-rata: " + average);
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nama depan: ");
+        String firstName = input.nextLine();
+        System.out.print("Masukkan nama belakang: ");
+        String lastName = input.nextLine();
+
+
+        String inisial = (firstName.toUpperCase().charAt(0) + "." + lastName.toUpperCase().charAt(0));
+        System.out.println("Inisial " + firstName + " " + lastName + " adalah " + inisial);
+
 
     }
+
 }
+
+
 
