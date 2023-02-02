@@ -16,7 +16,7 @@ Version 1.1
 
 public class Praktikum4 {
     /*
-	Soal Nomor 1 Praktikum 4 Java Fundamental
+	Soal Nomor 2 Praktikum 4 Java Fundamental
 */
     public static void main(String[] args) {
 
