@@ -22,7 +22,7 @@ public class Praktikum5 {
         System.out.print("Masukkan jumlah baris : ");
         Scanner sc = new Scanner(System.in);
         intBanyakBaris = sc.nextInt();
-        System.out.println("======================");
+        System.out.println("=======================");
         for (intBaris = 1; intBaris <= intBanyakBaris; intBaris++)
         {
             for (j = 1; j <= intBaris; j++)
