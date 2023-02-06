@@ -16,16 +16,16 @@ public class Praktikum5 {
 	Soal Nomor 2 Praktikum 5 Java Fundamental
 */
     public static void main(String[] args) {
-        int i;
+        int intBaris;
         int j;
-        int n;
+        int intBanyakBaris;
         System.out.print("Masukkan jumlah baris : ");
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
+        intBanyakBaris = sc.nextInt();
         System.out.println("======================");
-        for (i = 1; i <= n; i++)
+        for (intBaris = 1; intBaris <= intBanyakBaris; intBaris++)
         {
-            for (j = 1; j <= i; j++)
+            for (j = 1; j <= intBaris; j++)
             {
                 System.out.print("*");
             }
