@@ -13,6 +13,10 @@ Created on 2/7/2023 12:25 PM
 Version 1.1
 */
 public class Praktikum6 {
+    /*
+	Soal Nomor 2 Praktikum 6 Java Fundamental
+   */
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Scanner sn = new Scanner(System.in);
@@ -22,29 +26,27 @@ public class Praktikum6 {
         ArrayList<Integer> arrTampung = new ArrayList<>();
         try {
             System.out.println("Masukkan Angka : ");
-        do {
-            intNumber = sc.nextInt();
-            arrTampung.add(intNumber);
+            do {
+                intNumber = sc.nextInt();
+                arrTampung.add(intNumber);
 
-        }while (isGood);
+            }while (isGood);
         }catch (Exception e){
             System.out.println("Angka Yang Dimasukkan : "+arrTampung);
         }
         System.out.println("Masukkan Angka Yang dicari : ");
         intNilaiDiminta = sn.nextInt();
         boolean isFound = true;
-        for (int i=0;arrTampung.contains(intNilaiDiminta);i++){
-            if(arrTampung.contains(intNilaiDiminta)){
-                System.out.println("Angka "+intNilaiDiminta+ " Ditemukan di index ke "+arrTampung.indexOf(intNilaiDiminta)+ " Urutan ke "+arrTampung.indexOf(intNilaiDiminta+1));
+        for (int i = 0 ; i < arrTampung.size();i++)
+        {
+            if(intNilaiDiminta==arrTampung.get(i)){
+                System.out.println("Angka "+intNilaiDiminta+ " Ditemukan di index ke "+arrTampung.indexOf(intNilaiDiminta)+ " Urutan ke "+(i+1));
                 isFound = false;
                 break;
             }
         }
         if (isFound){
-            System.out.println("Angka "+intNilaiDiminta+ "tidak ditemukan pada data hasil inputan sebelumnya");
+            System.out.println("Angka "+intNilaiDiminta+ " tidak ditemukan pada data hasil inputan sebelumnya");
         }
-
-
-
     }
 }
