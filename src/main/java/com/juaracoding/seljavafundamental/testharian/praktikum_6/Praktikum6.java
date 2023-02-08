@@ -16,7 +16,6 @@ public class Praktikum6 {
     /*
 	Soal Nomor 2 Praktikum 6 Java Fundamental
    */
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Scanner sn = new Scanner(System.in);
