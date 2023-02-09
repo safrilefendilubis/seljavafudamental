@@ -14,7 +14,7 @@ Version 1.1
 public class Praktikum5 {
     /*
 	Soal Nomor 2 Praktikum 5 Java Fundamental
-*/
+   */
     public static void main(String[] args) {
         int intBaris;
         int j;

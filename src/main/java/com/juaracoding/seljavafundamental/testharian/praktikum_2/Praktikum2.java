@@ -26,7 +26,7 @@ public class Praktikum2 {
         try {
             System.out.println("Masukkan angka sepuasnya : ");
         do {
-            intNumber = sc.nextInt();
+
             douTotal+= intNumber;
            douJumlahData++;
         }while (isAgain);
